@@ -29,7 +29,6 @@ def initial_round
 end
 
 def hit?(number)
-  number = initial_round
   prompt_user
   get_user_input
   
