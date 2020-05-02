@@ -39,6 +39,7 @@ def hit?(number)
     prompt_user
   else
     invalid_command
+    prompt_user
   end
 end
 
