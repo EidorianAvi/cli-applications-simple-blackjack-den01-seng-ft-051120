@@ -37,6 +37,7 @@ def hit?(number)
     deal_card
     number += deal_card
     prompt_user
+    get_user_input
   else
     invalid_command
     prompt_user
