@@ -36,6 +36,7 @@ def hit?(number)
   elsif get_user_input == 'h'
     deal_card
     number += deal_card
+    prompt_user
   else
     invalid_command
   end
