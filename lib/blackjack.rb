@@ -34,7 +34,6 @@ def hit?(number)
   if get_user_input == 's'
     end_game(number)
   elsif get_user_input == 'h'
-    deal_card
     number += deal_card
     prompt_user
     get_user_input
