@@ -6,8 +6,8 @@ def deal_card
   rand(1..11)
 end
 
-def display_card_total(number)
-  puts "Your cards add up to #{number}"
+def display_card_total(card_total)
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
@@ -54,7 +54,8 @@ def runner
   welcome 
   initial_round
   hit?
-  display_card_total
+  display_card_total(card_total)
+  
   
 end
     
